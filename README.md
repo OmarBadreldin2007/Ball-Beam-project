@@ -12,7 +12,7 @@
 This is repository for the Ball &amp; Beam project showcasing the projects control system, code, and CAD pictures.
 
 # Overview
-The project's main aim is to balance a table-tennis ball at a specified setpoint. The ball position is controlled using a PID controller with the angle of the servo as the input to the system and feedback data is through a ToF (Time of Flight) sensor. A custom robotic joint linkage is attached to one side of the beam by a pivot, and the servo motor is what actuates the arm to move one side of the beam vertically to roll the ball to desired position. the system is simulated using MATLAB to further analyse the properties and behavior of the closed loop response.
+The project's main aim is to balance a table-tennis ball at a specified setpoint. The ball position is controlled using a PID controller with the angle of the servo as the input to the system and feedback data is through a Time of Flight (ToF) sensor. A custom robotic joint linkage is attached to one side of the beam by a pivot, and the servo motor is what actuates the arm to move one side of the beam vertically to roll the ball to desired position. the system is simulated using MATLAB to further analyse the properties and behavior of the closed loop response.
 
 # Running the model
 In order to run model simply run the MATLAB script and the model will automatically run the simulation and the script will generate the relevant plots and data.
