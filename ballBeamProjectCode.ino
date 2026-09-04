@@ -76,7 +76,7 @@ float pid(float error){
   proportional = kp * error;
   integral += error * dt;
   derivativeRAW = (error - lastError) / dt;
-  // Active low pass filter for derivative term to reduce noise
+  // Low pass filter for derivative term to reduce noise
   derivative = 0.65*derivative + 0.45*derivativeRAW;
   output = proportional + ki*integral + kd*derivative;
   return output;
